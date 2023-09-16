@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/x2VWkTB/1.jpg",
+      "title": "Top 10 JS ES6 features must know",
+      "author": "Amelia Grayson",
+      "author_img": "https://i.ibb.co/ZKMpCLZ/boy1.png",
+      "publish_date": "July 15, 2023",
+      "reading_time": 15,
+      "hashtag": "#TimelessTales"
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/0JkH8C1/2.png",
+      "title": "Be a software engineer in 2023",
+      "author": "Benjamin Blackwood",
+      "author_img": "https://i.ibb.co/QbBb03b/boy2.jpg",
+      "publish_date": "August 22, 2023",
+      "reading_time": 10,
+      "hashtag": "#MysteryMasters"
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/Wys30YX/3.png",
+      "title": "Whispers in the Wind in the sky",
+      "author": "Isabella Hart",
+      "author_img": "https://i.ibb.co/ZXDrvKW/girl1.jpg",
+      "publish_date": "September 7, 2023",
+      "reading_time": 25,
+      "hashtag": "#RomanticRealms"
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/VDcpCcr/4.jpg",
+      "title": "Chronicles of the Cosmos of in your light",
+      "author": "Xavier Starcaster",
+      "author_img": "https://i.ibb.co/Lk8HcT5/girl2.jpg",
+      "publish_date": "October 12, 2023",
+      "reading_time": 12,
+      "hashtag": "#SciFiSagas"
+    }
+  ]
+  
