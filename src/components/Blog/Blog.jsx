@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const Blog = ({blog, handleAddtoBookmark, handleMarkAsRead}) => {
     // console.log(blog);
     // console.log(handleReadingTime)
-    const {title, cover, author, author_img, publish_date, reading_time, hashtag} = blog;
+    const {title, cover, id, author, author_img, publish_date, reading_time, hashtag} = blog;
     return (
         <div className='flex flex-col gap-3 mb-3'>
             <h1 className='text-4xl text-center '>{title}</h1>
@@ -17,7 +17,7 @@ const Blog = ({blog, handleAddtoBookmark, handleMarkAsRead}) => {
                         <h4 className='font-bold'>{author}</h4>
                         <p>{publish_date}</p>
                         <p className='mt-2 font-bold text-gray-600'>{hashtag}</p> 
-                        <small  className='text-purple-600 font-bold cursor-pointer underline' onClick={()=> handleMarkAsRead(reading_time)} >Mark as read</small>
+                        <small  className='text-purple-600 font-bold cursor-pointer underline' onClick={()=> handleMarkAsRead(id, reading_time)} >Mark as read</small>
                     </div>
                 </div>
                 <div className='flex gap-3'>
